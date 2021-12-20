@@ -6,9 +6,6 @@ from flask_uploads import UploadSet, configure_uploads, IMAGES
 from model import load_img, combine
 import os 
 
-import tensorflow as tf
-
-
 app = Flask(__name__)
 
 photos = UploadSet('photos', IMAGES)
